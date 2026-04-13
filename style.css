@@ -19,3 +19,32 @@ header {
   font-size: 18px;
   color: #e5d7eb;
 }
+
+.nav-cntr {
+  /* background-color: grey; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-cntr div {
+  background-color: gray;
+  padding: 4px;
+  padding-bottom: 0;
+}
+
+/* .logo-image {
+  margin: 8px;
+  margin-top: 10px;
+}
+
+a {
+  margin: 4px;
+  margin-top: 10px;
+} */
+
+.header-su {
+  background-color: #3882f6;
+  color: #f9faf8;
+  margin: 4px;
+  padding: 4px;
+}
