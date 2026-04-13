@@ -1,5 +1,5 @@
 # land-page-odin-prj
-landing page project
+--landing page project--
 this is doing project for landing page
 according to the instruction form 
 the odin project.
