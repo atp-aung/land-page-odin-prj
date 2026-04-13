@@ -26,7 +26,7 @@ header {
 }
 
 .nav-cntr div {
-  background-color: gray;
+  margin: 16px;
 }
 
 .inn-nav-cntr-one {
@@ -34,18 +34,34 @@ header {
 }
 
 .logo-image {
-  margin-left: 100px;
+  margin-left: 184px;
 }
 
-/*
+.inn-nav-cntr-two {
+  display: flex;
+}
+
 a {
-  margin: 4px;
-  margin-top: 10px;
-} */
+  margin-right: 100px;
+}
 
 .header-su {
   background-color: #3882f6;
   color: #f9faf8;
   margin: 4px;
+  margin-left: 0;
   padding: 4px;
+}
+
+.hd-sec-row-cntr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hd-sec-row-one {
+  margin-left: 200px;
+}
+
+.hd-sec-row-two {
+  margin-right: 200px;
 }
