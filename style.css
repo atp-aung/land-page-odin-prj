@@ -21,22 +21,23 @@ header {
 }
 
 .nav-cntr {
-  /* background-color: grey; */
   display: flex;
   justify-content: space-between;
 }
 
 .nav-cntr div {
   background-color: gray;
-  padding: 4px;
-  padding-bottom: 0;
 }
 
-/* .logo-image {
-  margin: 8px;
-  margin-top: 10px;
+.inn-nav-cntr-one {
+  display: flex;
 }
 
+.logo-image {
+  margin-left: 100px;
+}
+
+/*
 a {
   margin: 4px;
   margin-top: 10px;
