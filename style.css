@@ -7,12 +7,14 @@
 header {
   background-color: #1f2937;
   font-family: roboto;
+  height: 550px;
 }
 
 .header-hero-main {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
+  margin-bottom: 32px;
 }
 
 .sec-text {
@@ -20,13 +22,19 @@ header {
   color: #e5d7eb;
 }
 
+.pp {
+  margin-bottom: 16px;
+}
+
 .nav-cntr {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 80px;
 }
 
 .nav-cntr div {
   margin: 16px;
+  margin-top: 32px;
 }
 
 .inn-nav-cntr-one {
@@ -46,16 +54,18 @@ a {
 }
 
 .header-su {
+  border-radius: 8px;
   background-color: #3882f6;
   color: #f9faf8;
-  margin: 4px;
-  margin-left: 0;
-  padding: 4px;
+  padding: 8px 24px 8px 24px;
+  border: 0;
 }
 
 .hd-sec-row-cntr {
   display: flex;
   justify-content: space-between;
+  gap: 100px;
+  align-items: center;
 }
 
 .hd-sec-row-one {
@@ -64,4 +74,8 @@ a {
 
 .hd-sec-row-two {
   margin-right: 200px;
+}
+
+.body-sect {
+  background-color: aquamarine;
 }
